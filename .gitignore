@@ -1,0 +1,66 @@
+# .NET build outputs
+**/bin/
+**/obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+_ReSharper.Caches/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.iml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+
+# Temp / logs
+*.tmp
+*.temp
+*.log
+*.swp
+*~
+[Ll]og/
+[Ll]ogs/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local settings / secrets
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# Generated CSV logs/exports
+*.csv
+!sample/*.csv
+
+# Publish artifacts
+publish/
+publish.zip
+*.zip
+
+# local config
+PortfolioApp/appsettings.json
+
+# runtime logs
+sample/import_errors_*.csv
+import_errors_*.csv

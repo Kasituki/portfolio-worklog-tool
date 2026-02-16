@@ -1,0 +1,9 @@
+WorkDate,Member,Project,WorkType,Hours,HourlyRate
+2026-02-01,Suzuki,,Dev,7.5,4500
+2026-02-02,,PJ-Beta,Test,4,
+2026-02-30,Tanaka,PJ-Gamma,Design,3.5,5000
+not-a-date,Sato,PJ-Delta,Meeting,1.5,4000
+2026-02-03,Yamada,PJ-Alpha,Dev,seven,4500
+2026-02-04,Kato,PJ-Beta,Support,,3500
+2026-02-01,Suzuki,PJ-Alpha,Dev,7.5,4500
+2026-02-01,Suzuki,PJ-Alpha,Dev,7.5,4500
