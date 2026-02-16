@@ -49,9 +49,15 @@ Desktop.ini
 **/appsettings.Development.json
 **/appsettings.Local.json
 
-# Generated CSV logs/exports
-*.csv
+# Generated CSV logs/exports (prefer pattern-based ignore)
+import_errors_*.csv
+月別工数_*.csv
+案件別工数_*.csv
+メンバー別工数_*.csv
+
+# Keep sample csv
 !sample/*.csv
+
 
 # Publish artifacts
 publish/
