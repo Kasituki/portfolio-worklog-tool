@@ -117,6 +117,7 @@ namespace PortfolioApp
                 _commonFromDate = value; 
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(IsPeriodSet));
+                OnPropertyChanged(nameof(CanGetData));
             }
         }
 
@@ -129,6 +130,7 @@ namespace PortfolioApp
                 _commonToDate = value; 
                 OnPropertyChanged();
                 OnPropertyChanged(nameof(IsPeriodSet));
+                OnPropertyChanged(nameof(CanGetData));
             }
         }
 
